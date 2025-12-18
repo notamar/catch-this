@@ -42,3 +42,10 @@ public class CatchProbabilityController {
         return savantService.getDefensivePlays(playerId, season);
     }
 }
+
+/* By gamePk:
+
+https://statsapi.mlb.com/api/v1/schedule?gamePk=717539
+By dates to limit requests:
+
+https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2023-07-01&endDate=2023-07-04 */
