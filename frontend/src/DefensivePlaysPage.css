@@ -1,0 +1,33 @@
+.plays-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .plays-table th,
+  .plays-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .plays-table th {
+    background-color: #151515;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .plays-table tbody tr:hover {
+    background-color: #8c38fb;
+  }
+  
+  .plays-table th:hover {
+    background-color: #ff3131;
+  }
+
+  .sort-indicator {
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+    color: #2f6f4e;
+  }
